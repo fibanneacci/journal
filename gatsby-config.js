@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: `/journal`,
   siteMetadata: {
     title: `anne's journal 📝`,
-    description: ``,
+    description: `random thoughts & notes (on college courses, & probably other stuff in the future), by season`,
     author: `Anne Li`
   },
   plugins: [
