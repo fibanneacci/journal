@@ -1,3 +1,7 @@
+Note on node_modules:
+- Downgraded react-leaflet to ver 2.8.0 for compatibility with react-leaflet-universal
+- Commented out line 51 in react-leaflet-universal/dist/decorator.js (was causing error)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

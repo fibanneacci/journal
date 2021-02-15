@@ -25,7 +25,8 @@
     "react-dom": "^16.14.0",
     "react-globe.gl": "^2.13.0",
     "react-helmet": "^6.1.0",
-    "react-leaflet": "^3.0.2",
+    "react-leaflet": "^2.8.0",
+    "react-leaflet-universal": "^2.2.1",
     "three": "^0.123.0"
   },
   "devDependencies": {

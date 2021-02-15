@@ -1,6 +1,6 @@
 import React from "react"
 //import Globe from "react-globe.gl"
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
+import { Map, MapContainer, TileLayer, Marker, Popup } from "react-leaflet-universal"
 import Notes from "./notes.mdx"
 
 import Layout from "../components/layout"
@@ -102,13 +102,13 @@ const IndexPage = () => (
         />
       </div>*/}
       <div style={{ padding: `0 0 1.5rem 0` }}>
-        <MapContainer style={{ height: `50vh`, minHeight: `200px` }} bounds={[[llx, lly], [urx, ury]]} minZoom={1} scrollWheelZoom={true} wheelPxPerZoomLevel={30}>
+        <Map style={{ height: `50vh`, minHeight: `200px` }} bounds={[[llx, lly], [urx, ury]]} minZoom={1} scrollWheelZoom={true} wheelPxPerZoomLevel={30}>
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           {markersOutput}
-        </MapContainer>
+        </Map>
       </div>
       <Notes />
     </body>
