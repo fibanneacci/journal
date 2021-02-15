@@ -9,7 +9,7 @@ const Footer = ({ siteTitle }) => (
             padding: `1rem 0rem 1rem 0rem`
         }}
     >
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()} Anne Li, Built with
         {` `}
         <a href="https://www.gatsbyjs.com" target="_blank" rel="noreferrer">Gatsby</a>.
     </footer>
