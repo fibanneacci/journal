@@ -21,15 +21,11 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
-mark {
-  background-color: #ffffff00;
-}
-mark:hover {
-  background-color: #0091d1;
-}
 a {
+  background-color: #ffffff00;
   color: #0091d1;
 }
 a:hover {
+  background-color: #0091d1;
   color: #ffffff;
 }
