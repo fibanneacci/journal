@@ -11,7 +11,7 @@ const Footer = ({ siteTitle }) => (
     >
         © {new Date().getFullYear()}, Built with
         {` `}
-        <a href="https://www.gatsbyjs.com" target="_blank" rel="noreferrer">Gatsby</a>.
+        <mark><a href="https://www.gatsbyjs.com" target="_blank" rel="noreferrer">Gatsby</a></mark>.
     </footer>
 )
 
