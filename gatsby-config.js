@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/journal`,
   siteMetadata: {
-    title: `💫`,
+    title: `📝`,
     description: ``,
     author: `Anne Li`
   },
