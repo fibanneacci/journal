@@ -5,7 +5,6 @@ import React from "react"
 const Footer = ({ siteTitle }) => (
     <footer
         style={{
-            background: `#FFFFFF`,
             padding: `1rem 0rem 1rem 0rem`
         }}
     >

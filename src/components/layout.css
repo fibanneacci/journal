@@ -7,6 +7,7 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -21,11 +22,14 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
 a {
   background-color: #ffffff00;
-  color: #0091d1;
+  /* color: #0091d1; */
+  color: rgb(0, 132, 255);
 }
+
 a:hover {
-  background-color: #0091d1;
+  background-color: rgb(0, 132, 255);
   color: #ffffff;
 }

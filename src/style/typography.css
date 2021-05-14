@@ -2,9 +2,3 @@
     font-family: "Chivo";
     src: url("../style/Chivo/Chivo-Regular.ttf");
 }
-
-@font-face {
-    font-family: "Chivo";
-    src: url("../style/Chivo/Chivo-Bold.ttf");
-    font-weight: "bold";
-}

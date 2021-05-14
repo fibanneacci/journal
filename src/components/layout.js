@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div style={{backgroundColor: '#f8f8f8'}}>
       <div
         style={{
           margin: `0 auto`,
@@ -33,16 +33,16 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
           display: `flex`,
           flexDirection: `column`,
-          minHeight: `100vh`
+          minHeight: `95vh`,
         }}
       >
         <Header />
-        <html style={{ flexGrow: 1 }}>
+        <div style={{ flexGrow: 1 }}>
           {children}
-        </html>
+        </div>
         <Footer />
       </div>
-    </>
+    </div>
   )
 }
 
