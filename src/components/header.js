@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
       padding: `1.5rem 0 0 0`
     }}
   >
-    <h1 style={{ textAlign: `center` }}>📝</h1>
+    {/* <h1 style={{ textAlign: `center` }}>📝</h1> */}
   </header>
 )
 

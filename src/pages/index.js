@@ -1,6 +1,7 @@
 import React from "react"
 //import Globe from "react-globe.gl"
 import { Map, MapContainer, TileLayer, Marker, Popup } from "react-leaflet-universal"
+import Toggle from 'react-toggle'
 import Notes from "./notes.mdx"
 
 import Layout from "../components/layout"
@@ -82,37 +83,47 @@ lly = Math.max(lly - 5, -180)
 urx = Math.min(urx + 5, 90)
 ury = Math.min(ury + 5, 180)
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="anne's journal 📝" />
-    <head>
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossOrigin="" />
-      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-        crossOrigin=""></script>
-    </head>
-    <body>
-      {/*<div className="globeContainer" style={{ width: `100%`, display: `flex`, flexDirection: `column`, alignItems: `center` }}>
-        <Globe
-          backgroundColor={`#FFFFFF`}
-          animateIn={true}
-          globeImageUrl="https://unpkg.com/three-globe/example/img/earth-day.jpg"
-        />
-      </div>*/}
-      <div style={{ padding: `0 0 1.5rem 0` }}>
-        <Map style={{ height: `50vh`, minHeight: `200px` }} bounds={[[llx, lly], [urx, ury]]} minZoom={1} scrollWheelZoom={true} wheelPxPerZoomLevel={30}>
-          <TileLayer
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          {markersOutput}
-        </Map>
-      </div>
-      <Notes />
-    </body>
-  </Layout>
-)
+class IndexPage extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      topic: true
+    }
+  }
+
+  render() {
+    return (
+      <Layout>
+        <SEO title="anne's journal" />
+        <head>
+          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossOrigin="" />
+          <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossOrigin=""></script>
+        </head>
+        <body>
+          <div style={{ padding: `0 0 1.5rem 0` }}>
+            <Map style={{ height: `50vh`, minHeight: `200px` }} bounds={[[llx, lly], [urx, ury]]} minZoom={1} scrollWheelZoom={true} wheelPxPerZoomLevel={30}>
+              <TileLayer
+                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              />
+              {markersOutput}
+            </Map>
+          </div>
+          <label>
+            <Toggle
+              defaultChecked={this.state.baconIsReady}
+              onChange={this.handleBaconChange} />
+            <span>Wrapper label tag</span>
+          </label>
+          <Notes />
+        </body>
+      </Layout>
+    )
+  }
+}
 
 export default IndexPage

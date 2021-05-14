@@ -1,4 +1,10 @@
 @font-face {
-    font-family: "Castoro";
-    src: url("../style/Libre_Baskerville/LibreBaskerville-Regular.ttf");
+    font-family: "Chivo";
+    src: url("../style/Chivo/Chivo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Chivo";
+    src: url("../style/Chivo/Chivo-Bold.ttf");
+    font-weight: "bold";
 }
