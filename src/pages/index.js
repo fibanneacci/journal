@@ -23,9 +23,16 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="anne's journal" />
-        {/* 2 radio buttons (sort by time / topic) */}
         <input type='checkbox' id='official' name='official' value='official' onClick={() => this.handleOfficial()} style={{ marginLeft: '10px' }} />
-        <label htmlFor='official'> Show official names and descriptions</label>
+        <label htmlFor='official'> Show official course names and descriptions</label>
+        {/* <input type='checkbox' id='topic' name='topic' value='topic' onClick={() => this.handleOfficial()} style={{ marginLeft: '10px' }} />
+        <label htmlFor='topic'> Sort by topic instead of time</label> */}
+        <p>
+          Currently, this page only has notes on college courses. I'm hoping to add notes on other things soon! Also hoping this will
+          make me more intentional when deciding what commitments to sign up for in the future &mdash; I tend to get false impressions
+          (e.g. of how much I enjoyed or learned from something) when I don't stop and reflect. This year, though, I chose courses
+          spontaneously and across random interests, knowing they'd probably fit under the major I have in mind.
+        </p>
         <h3 style={{ marginLeft: '10px' }}>Spring 2021</h3>
         <Card time='20212' topic='CS Theory' style={{ display: 'block' }}>
           <div className='unofficial'>
