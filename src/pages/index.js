@@ -132,7 +132,8 @@ class IndexPage extends React.Component {
             <p>
               Discussed algorithms, privacy, automation, and equity in tech. To be honest, I was so burnt out at the time,
               I didn't get as much out of this class as I could've. There were also a few problems throughout, though I think the
-              Concept&trade; of the class was good (class was co-taught by CS, phil, and public policy profs).<br />
+              Concept&trade; of the class was good (class was co-taught by CS, phil, and public policy profs). Taiwan Digital Minister
+              Audrey Tang came to (virtually) speak to us, too!<br />
               <a href="https://communemag.com/optimize-what/" target="_blank" rel="noreferrer">"Optimize What?" &mdash; Jimmy Wu for <i>Commune Mag</i></a><br />
               Excerpts from <a href="https://weaponsofmathdestructionbook.com" target="_blank" rel="noreferrer"><i>Weapons of Math Destruction</i> &mdash; Cathy O’Neil</a><br />
               <a href="https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm" target="_blank" rel="noreferrer">"How We Analyzed the COMPAS Recidivism Algorithm" &mdash; Larson, Mattu, Kirchner, Angwin for <i>ProPublica</i></a><br />
