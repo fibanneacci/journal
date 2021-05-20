@@ -56,8 +56,8 @@ class IndexPage extends React.Component {
             <b>Social computing, the "go viral" class (4 units)</b>
             <p>
               No comments yet &mdash; haven't really reflected on this class much, but I think I'm struggling to get the
-              most out of this class because I'm a little burnt out — on a happier note, though, we've been prototyping / 
-              designing / building social computing systems in groups for our final project, which has been a pretty cool
+              most out of this class because I'm a little burnt out — but on a happier note, we've been prototyping / 
+              designing / building a social computing system in a group for our final project, which has been a pretty cool
               & valuable experience!<br />
               <a href="https://dl.acm.org/doi/10.1145/142750.142769" target="_blank" rel="noreferrer">"Beyond being there" &mdash; Hollan & Stornetta</a><br />
               Excerpts from <a href="https://en.wikipedia.org/wiki/The_Presentation_of_Self_in_Everyday_Life" target="_blank" rel="noreferrer"><i>The Presentation of Self in Everyday Life</i> &mdash; Goffman</a><br />
