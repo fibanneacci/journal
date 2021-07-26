@@ -198,6 +198,7 @@ class IndexPage extends React.Component {
             <p>
               Pretty high-level (not particularly in-depth); regardless, I really loved this class! Before, I thought
               SymSys was "built around CS"; this class made me realize it can be built around anything.<br />
+              <a href="https://philpapers.org/rec/HAUSEA-3" target="_blank" rel="noreferrer">"Semantic Engines" — Haugeland</a><br />
               <a href="https://en.wikipedia.org/wiki/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_buffalo" target="_blank" rel="noreferrer">Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo</a><br />
               <a href="https://www.theatlantic.com/science/archive/2016/06/can-neuroscience-understand-donkey-kong-let-alone-a-brain/485177/" target="_blank" rel="noreferrer">"Can a Neuroscientist Understand Donkey Kong, Let Alone a Brain?" — Ed Yong for <i>The Atlantic</i></a><br />
               <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjYsKu37sLtAhUQq1kKHRS8B44QwqsBMAB6BAgEEAQ&url=https%3A%2F%2Fwww.ted.com%2Ftalks%2Falison_gopnik_what_do_babies_think%3Flanguage%3Den&usg=AOvVaw2R7nTkJoFsCp7j3EmROoVU" target="_blank" rel="noreferrer">"What do babies think?" — Alison Gopnik, TEDGlobal 2011</a>
